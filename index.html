@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>payment details|Koushik</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="header">
+                <h3 class="title">payment details</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" class="logo"  width="48" height="48" fill="none" id="visa"><path fill="#fff" d="M24 48c13.255 0 24-10.745 24-24S37.255 0 24 0 0 10.745 0 24s10.745 24 24 24Z"></path><path fill="url(#a)" fill-rule="evenodd" d="M24.505 23.074c-.016 1.303 1.152 2.03 2.033 2.463.904.444 1.208.729 1.205 1.125-.007.608-.722.876-1.39.886-1.136.018-1.809-.3-2.341-.55l-.044-.022-.42 1.983c.54.252 1.543.47 2.582.48 2.439 0 4.035-1.213 4.043-3.095.006-1.429-1.168-2.05-2.107-2.547-.631-.335-1.156-.612-1.147-1.041.007-.324.314-.67.985-.757.332-.045 1.25-.079 2.29.404l.408-1.918a6.179 6.179 0 0 0-2.173-.402c-2.296 0-3.91 1.23-3.924 2.991Zm10.02-2.826c-.445 0-.821.262-.988.664L30.052 29.3h2.438l.485-1.352h2.978l.282 1.352h2.148l-1.875-9.05h-1.983Zm1.044 5.843-.703-3.398-1.223 3.398h1.926ZM21.55 20.248l-1.921 9.05h2.322l1.92-9.05h-2.32Zm-5.853 6.16 2.417-6.16h2.44l-3.764 9.05h-2.454l-1.853-7.222c-.112-.444-.21-.608-.551-.795-.558-.306-1.48-.593-2.292-.77l.056-.263h3.952c.503 0 .956.338 1.07.922l.979 5.238Z" clip-rule="evenodd"></path><defs><linearGradient id="a" x1="9.691" x2="17.815" y1="22.961" y2="11.519" gradientUnits="userSpaceOnUse"><stop stop-color="#222357"></stop><stop offset="1" stop-color="#254AA5"></stop></linearGradient></defs></svg>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <label>Card number</label>
+                    <input type="text" class="card-number" placeholder="1234 1234 1234 1234" maxlength="16">
+                </div>
+                <div class="row card-expire">
+                    <div class="row card-expire-month" >
+                        <label>Month</label>
+                       <input type="text" placeholder="january">
+                    </div> 
+                    <div class="row card-expire">
+                        <div class="row card-expire-year" >
+                            <label>year</label>
+                           <input type="text" placeholder="1999" maxlength="4">
+                        </div>
+                </div>
+            </div>
+            <div class="row card-cvv">
+                <label>cvv</label>
+                <input type="text" placeholder="123" maxlength="3">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
